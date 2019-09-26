@@ -1,0 +1,28 @@
+#container {
+    display: grid;
+    width: 100vw;
+    grid-template-areas:
+        "figure"
+        "boxes-1"
+        "boxes-2";
+}
+figure {
+    grid-area: "figure";
+}
+.detailBox1 {
+    background-color: #d2d4c8;
+    grid-area: "boxes-1"
+}
+
+.detailBox2 {
+    background-color: #bc0c06;
+    grid-area: "boxes-2"
+}
+
+.name1 {
+
+}
+
+.name2 {
+
+}
